@@ -22,7 +22,7 @@ function InputField({ todo, setTodo, handleAdd }: Props) {
         ref={inputRef}
         value={todo}
         type="input"
-        placeholder="Enter as task"
+        placeholder="Enter a task"
         className="input__box"
         onChange={(e) => setTodo(e.target.value)}
       ></input>
